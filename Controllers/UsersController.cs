@@ -11,8 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Messenger.Controllers
 {
-    [Authorize]
-    [Route("api/[controller]")]
+    [Route("api/Users")]
     [ApiController]
     public class UsersController : ControllerBase
     {
